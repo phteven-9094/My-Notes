@@ -6,11 +6,11 @@ This is to house all of my notes for various subjects
 
 - AWS
   - [Cloud Practitioner](https://github.com/phteven-9094/My-Notes/tree/main/AWS-Related/Cloud%20Practitioner)
-- Git & GitHub
-- SQL
+- [Git & GitHub](https://github.com/phteven-9094/My-Notes/tree/main/Git%20%26%20GitHub)
+- [SQL](https://github.com/phteven-9094/My-Notes/tree/main/SQL)
 - Network Related
-  - Subnetting
-- Web Dev Bootcamp (Unfinished)
-- Python Bootcamp 2023
-- Golang
-- HTMX
+  - [Subnetting](https://github.com/phteven-9094/My-Notes/tree/main/Network-Related/Subnetting)
+- [Web Dev Bootcamp (Unfinished)](https://github.com/phteven-9094/My-Notes/tree/main/Web-Dev-Bootcamp)
+- [Python Bootcamp 2023](https://github.com/phteven-9094/My-Notes/tree/main/Python-Bootcamp-2023)
+- [Golang](https://github.com/phteven-9094/My-Notes/tree/main/Golang)
+- [HTMX](https://github.com/phteven-9094/My-Notes/tree/main/HTMX)
