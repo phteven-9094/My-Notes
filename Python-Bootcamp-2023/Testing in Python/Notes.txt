@@ -1,0 +1,66 @@
+ - Assertions
+    - We can make simple assertions with the assert keyword
+    - assert accepts an expression
+    - Returns None if the expression is truthy
+    - Raises an AssertionError if the expression is falsy
+    - Accepts an optional error message as a second argument
+    - Shouldn't use Assert to test all of your code, it's simply an option at your disposal
+    - Warning: If a python file is run with the -O flag, all assertions will be ignored
+
+ - Doctests
+    - We can write tests for functions inside of the docstring
+    - Write code that looks like it's inside of a REPL
+        - Example:
+            def add_numbers(x, y):
+            """ 
+            add together x and y
+            >>> add_numbers(1,2)
+            3
+            >>>add_numbers(8, "hi")
+            Traceback (most recent call last):
+                ...
+            TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+            return x+y
+            """
+    - To trigger doctests:
+        - python3 -m doctest -v <name_of_file>
+    - Issues with doctests:
+        - Syntax is a little strange
+        - Clutters up our function code
+        - Lacks many features of larger testing tools
+        - Tests can be brittle
+
+- Unittests
+    - Built-in module
+    - The most popular and easiest to use
+    - Unit Testing:
+        - Test smallest parts of an application in isolation
+        - Good candidates for unit testing: individual classes, modules, or functions
+        - Bad candidates: Entire application, dependencies across several classes or modules
+    - A lot of info in the documentation (https://docs.python.org/3/library/unittest.html)
+    - You can write unit tests encapsulated as classes that inherit from unittest.TestCase
+    - This inheritance gives you access to many assertion helpers that let you test the behavior of your functions
+    - You can run tests by calling unittest.main()
+
+- Other Types of Assertions
+    - Check the docs above for the full list
+    - self.assertEqual(x, y)
+    - self.assertNotEqual(x,y)
+    - self.assertTrue(x)
+    - self.assertFalse(x)
+    - self.assertIsNone(x)
+    - self.assertIsNotNone(x)
+    - self.assertIn(x, y)
+    - self.assertNotIn(x, y)
+    - Can also test for errors with self.assertRaises(ErrorType):
+        - code that results in error
+
+- Before and After Hooks
+    - setUp and tearDown
+        - For larger applications, you may want similar application state before running tests
+        - setUp runs before each test method
+        - tearDown runs after each test method
+        - Common use cases:
+            - adding/removing data from a test database, creating instances of a classes
+        - 

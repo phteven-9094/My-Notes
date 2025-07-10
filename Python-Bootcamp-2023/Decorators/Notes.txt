@@ -1,0 +1,9 @@
+ - Intro to Decorators
+    - Decorators are functions
+    - Decorators wrap other functions and enhance their behavior
+    - Examples of higher order functions
+    - Have their own syntax, using @
+ - If you need to preserve metadata of a wrapper function:
+    - import "from functools import wraps"
+    - add @wraps(fn) above the wrapper function
+ - Examples of Decorators with arguments

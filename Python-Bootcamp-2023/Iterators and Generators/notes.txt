@@ -1,0 +1,18 @@
+ - Iterator vs Iterable
+    - Iterator - an object that can be iterated upon. An object which returns data, one element at a time when next() is called on it.
+    - Iterable - An object which will return an iterator when iter() is called on it
+    - Example:
+        - "HELLO" is an iterable, but it is not an iterator
+        - iter("HELLO") returns an iterator
+    - For loops will essentially pass iter() on the iterable behind the scene and use next() until a StopIteration error is raised
+    - See define_our_own_for_loop
+
+
+ - Generators
+    - Generators are iterators
+    - Easy way to create iterators
+    - Generator functions use the yield keyword
+        - Can yield multiple times
+        - When invoked, returns a generator
+    - Generator can be created with generator expressions
+    - Generator Expressions are similar to list comprehensions but with generators

@@ -1,0 +1,30 @@
+ - Reading Basic Files
+    - You can read a file with the open function
+        - open returns a file object to you
+    - You can read a file object with the read method
+ - Cursor Movement
+    - Python reads a files by using a Cursor
+    - This is like the cursor you see when you're typing
+    - After a file is read, the cursor is at the end
+    - To move the cursor, use the seek method
+- Closing a Files
+    - You can close a file with the close method
+    - You can check if a file is clsoed with the closed attribute
+    - Once closed, a file can't be read again
+    - Always close files - it frees up system resources
+- The With Statement
+    - Preferred method of working with files
+    - Automatically closes the file once ran so you don't have to manually close it
+- Writing to Text Files
+    - The file still needs to be opened
+    - Need to specify the "w" flag as the second argument
+    - Write will overwrite the orginial contents if using the "w" flag
+- File Modes
+    - Default is 'r' (read)
+    - 'w' is for Write
+    - 'a' is for appending to the end of a file if it exists
+    - 'r+' Read and write to a file (writing based on cursor)
+        - Will not create a file if it doesn't exist
+- Truncate
+    - file.truncate() resizes the file to the given number of bytes
+        - If the size is not specified, the current position with be used.

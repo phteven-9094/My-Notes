@@ -1,0 +1,14 @@
+ - Reading CSV Files
+    - CSV files are a common file format for tabular data
+    - First row in CSV files are the headers
+    - See fighters.csv for simple example
+    - We can read CSV files just like other text files
+    - Python has a built-in CSV module to read/write CSVs more easily
+        - reader - lets you iterate over rows of the CSV as lists
+        - DictReader - Lets you iterate over rows of the CSV as OrderedDicts
+        - Writer - Lets you write rows of the CSV as lists
+        - DictWrite - Lets you write rows of the CSV as OrderedDicts
+
+
+- Pickling
+    - Process of converting a Python object into a byte stream to store it in a file/database, maintain program state across sessions, or transport data over the network.
