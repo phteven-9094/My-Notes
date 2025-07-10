@@ -14,3 +14,13 @@ This is to house all of my notes for various subjects
 - [Python Bootcamp 2023](https://github.com/phteven-9094/My-Notes/tree/main/Python-Bootcamp-2023)
 - [Golang](https://github.com/phteven-9094/My-Notes/tree/main/Golang)
 - [HTMX](https://github.com/phteven-9094/My-Notes/tree/main/HTMX)
+
+## To-Do
+- Docker
+- Kubernetes
+- Finish Web Dev
+- Java
+- Linux
+- Django (Python)
+- Flask (Python)
+- DSA
