@@ -13,3 +13,4 @@ This is to house all of my notes for various subjects
 - Web Dev Bootcamp (Unfinished)
 - Python Bootcamp 2023
 - Golang
+- HTMX
