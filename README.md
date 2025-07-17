@@ -16,6 +16,7 @@ This is to house all of my notes for various subjects
 - [HTMX](https://github.com/phteven-9094/My-Notes/tree/main/HTMX)
 
 ## To-Do
+
 - Docker
 - Kubernetes
 - Finish Web Dev
@@ -24,3 +25,4 @@ This is to house all of my notes for various subjects
 - Django (Python)
 - Flask (Python)
 - DSA
+- Rust -- In Progress
