@@ -1,1 +1,0 @@
-/Users/stephen.hughes/Desktop/My-Notes/My-Notes/Rust/Section-1-Getting-Started/section-project/about_me/target/debug/about_me: /Users/stephen.hughes/Desktop/My-Notes/My-Notes/Rust/Section-1-Getting-Started/section-project/about_me/src/main.rs
