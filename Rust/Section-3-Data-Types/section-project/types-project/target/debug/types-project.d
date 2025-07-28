@@ -1,0 +1,1 @@
+/Users/stephen.hughes/Desktop/My-Notes/My-Notes/Rust/Section-3-Data-Types/section-project/types-project/target/debug/types-project: /Users/stephen.hughes/Desktop/My-Notes/My-Notes/Rust/Section-3-Data-Types/section-project/types-project/src/main.rs
