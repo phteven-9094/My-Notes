@@ -24,5 +24,5 @@ This is to house all of my notes for various subjects
 - Linux
 - Django (Python)
 - Flask (Python)
-- DSA
-- Rust -- In Progress
+- DSA -- In Progress
+- Rust -- In Progress -- On Pause
