@@ -24,5 +24,6 @@ This is to house all of my notes for various subjects
 - Linux
 - Django (Python)
 - Flask (Python)
-- DSA -- In Progress
+- DSA
 - Rust -- In Progress -- On Pause
+- Odin Project -- In Progress
