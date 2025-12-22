@@ -25,5 +25,6 @@ This is to house all of my notes for various subjects
 - Django (Python)
 - Flask (Python)
 - DSA
-- Rust -- In Progress -- On Pause
-- Odin Project -- In Progress
+- Rust
+- Odin Project
+- 100 Days of Code - Python - In Progress
