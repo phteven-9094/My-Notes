@@ -15,10 +15,13 @@ This is to house all of my notes for various subjects
 - [Golang](https://github.com/phteven-9094/My-Notes/tree/main/Golang)
 - [HTMX](https://github.com/phteven-9094/My-Notes/tree/main/HTMX)
 
-## To-Do
-
+## Ongoing
 - Docker
 - Kubernetes
+
+## To-Do
+
+
 - Finish Web Dev
 - Java
 - Linux
